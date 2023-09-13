@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-width: 1034px;
+    margin: 2% auto;
+
+}
+main {
+    width: 100%;
+
+}
+#navbar {
+    width: 20%;
+
+    border-right: 5px solid gray;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+
+}
+#navbar header h1 {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 0.75em 0.75em;
+}
+#navbar p {
+    padding: 0.75em 0.5em;
+}
+#navbar p:first-child {
+    font-size: 2em;
+    padding-bottom: 0.75em;
+}
+.nav-link {
+    text-decoration: none;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    color: red;
+}
+#content {
+    width: 78%;
+
+
+    float: right;
+
+}
+.main-section {
+    margin-bottom: 3em;
+
+}
+.main-section header {
+    padding-bottom: 1em;
+}
+#Introduction ul, #What_you_should_already_know ul, #Data_types ol ul, #Data_types ol  {
+    padding-left: 2.5em;
+    line-height: 2em;
+
+}
+#Introduction p, #What_you_should_already_know p, #JavaScript_and_Java p, #Hello_world p,
+#Global_variables p, #Constants p, #Data_types p {
+    font-size: 1.1em;
+    line-height: 2em;
+}
+code {
+    padding: 2em;
+
+}
+@media only screen and (max-width: 480px){
+    #navbar {
+        position: fixed;
+    }
+
+}
